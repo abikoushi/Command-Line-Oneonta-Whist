@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		0B355F901F449CA700058DC0 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B355F8F1F449CA700058DC0 /* main.swift */; };
+		0B355F9B1F449D0900058DC0 /* card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B355F961F449D0900058DC0 /* card.swift */; };
+		0B355F9C1F449D0900058DC0 /* deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B355F971F449D0900058DC0 /* deck.swift */; };
+		0B355F9D1F449D0900058DC0 /* hand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B355F981F449D0900058DC0 /* hand.swift */; };
+		0B355F9E1F449D0900058DC0 /* rank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B355F991F449D0900058DC0 /* rank.swift */; };
+		0B355F9F1F449D0900058DC0 /* suit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B355F9A1F449D0900058DC0 /* suit.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +30,11 @@
 /* Begin PBXFileReference section */
 		0B355F8C1F449CA700058DC0 /* Command-Line-Oneonta-Whist */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Command-Line-Oneonta-Whist"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B355F8F1F449CA700058DC0 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		0B355F961F449D0900058DC0 /* card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = card.swift; sourceTree = "<group>"; };
+		0B355F971F449D0900058DC0 /* deck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = deck.swift; sourceTree = "<group>"; };
+		0B355F981F449D0900058DC0 /* hand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = hand.swift; sourceTree = "<group>"; };
+		0B355F991F449D0900058DC0 /* rank.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = rank.swift; sourceTree = "<group>"; };
+		0B355F9A1F449D0900058DC0 /* suit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = suit.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +67,11 @@
 		0B355F8E1F449CA700058DC0 /* Command-Line-Oneonta-Whist */ = {
 			isa = PBXGroup;
 			children = (
+				0B355F961F449D0900058DC0 /* card.swift */,
+				0B355F971F449D0900058DC0 /* deck.swift */,
+				0B355F981F449D0900058DC0 /* hand.swift */,
+				0B355F991F449D0900058DC0 /* rank.swift */,
+				0B355F9A1F449D0900058DC0 /* suit.swift */,
 				0B355F8F1F449CA700058DC0 /* main.swift */,
 			);
 			path = "Command-Line-Oneonta-Whist";
@@ -120,7 +135,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B355F9F1F449D0900058DC0 /* suit.swift in Sources */,
+				0B355F9D1F449D0900058DC0 /* hand.swift in Sources */,
 				0B355F901F449CA700058DC0 /* main.swift in Sources */,
+				0B355F9B1F449D0900058DC0 /* card.swift in Sources */,
+				0B355F9C1F449D0900058DC0 /* deck.swift in Sources */,
+				0B355F9E1F449D0900058DC0 /* rank.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
