@@ -26,7 +26,7 @@ while(con){
         print(j+1, ":", hand.cards[j].description)
     }
     print()
-    print("Trump:", trump[0].description)
+    print("trump:", trump[0].description)
     print()
     print("bid: ", terminator: "")
     var bid = readLine(strippingNewline: true)!
@@ -37,7 +37,7 @@ while(con){
     print()
     
     for i in 1..<9 {
-        print("Trump:", trump[0].description)
+        print("trump:", trump[0].description)
         print()
         
         print("hands:")
@@ -106,13 +106,11 @@ while(con){
     
     if(bidnum == 0 && earn == 0){
         points = 10
-    }
-    
-    if(bidnum >= earn){
+    }else if(bidnum == 0 && earn != 0){
+        points = -10
+    }else if(bidnum >= earn){
         points = -bidnum
-    }
-    
-    if(earn >= bidnum){
+    }else{
         points = bidnum - (earn-bidnum)
     }
     
