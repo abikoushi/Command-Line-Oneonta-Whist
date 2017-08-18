@@ -108,8 +108,10 @@ while(con){
         points = 10
     }else if(bidnum == 0 && earn != 0){
         points = -10
-    }else if(bidnum >= earn){
+    }else if(bidnum > earn){
         points = -bidnum
+    }else if(bidnum == earn){
+        points = bidnum
     }else{
         points = bidnum - (earn-bidnum)
     }
